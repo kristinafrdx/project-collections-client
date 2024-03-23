@@ -1,0 +1,327 @@
+
+.btn {
+  border: none;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.createColl { 
+  margin: 0;
+  margin-right: 5px;
+  color: #fff;
+  letter-spacing: .1rem;
+} 
+
+.themes {
+  gap: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.login-container {
+  width: 500px;
+  height: 500px;
+  border-radius: 3%;
+}
+
+.account {
+  opacity: 60%;
+  font-size: 15px;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.coll {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 30px;
+  justify-content: flex-start;
+  margin-left: 50px;
+  height: fit-content;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.wrap {
+  display: flex;
+  width: 100%;
+  padding-bottom: 80px;
+  min-height: 100vh;
+}
+
+.collections-wrapper {
+  padding: 20px 20px;
+}
+
+li {
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.registration-logo {
+  cursor: pointer;
+}
+
+select {
+  height: 20px;
+  border: none;
+  font-size: 12px;
+  border-radius: 7%;
+  color: #d5d5d5;
+  cursor: pointer;
+}
+
+select:focus-visible {
+  outline-color: gray;
+  outline-width: 1px;
+  outline-style: solid;
+}
+
+.linkButton {
+  border: none;
+  background-color: unset;
+  padding: 0;
+  margin: 0;
+}
+
+#custom-switch {
+  cursor: pointer;
+}
+
+.link {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  min-width: 150px;
+  margin-left: 20px;
+  font-size: 18px;
+  flex-direction: column;
+}
+
+.nameColl {
+  font-size: 18px;
+}
+
+.text-coll {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  flex-direction: column;
+}
+
+.coll-height {
+  height: 100vh;
+} 
+
+.checkbox:checked:before {
+  background-color: rgb(24, 24, 44);
+}
+
+.nameColl, .remove {
+  cursor: pointer;
+}
+
+.addedField:active, .addedField:focus, .addedField:focus-visible {
+  /* border: none; */
+  box-shadow: none;
+}
+
+.addedField {
+  cursor: auto;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.haventItems {
+  justify-content: flex-start;
+}
+
+.haveItems {
+  justify-content: space-between;
+}
+
+thead {
+  text-align: center;
+}
+
+td, th {
+  padding: 10px;
+}
+
+tr:first-child {
+  width: 50px;
+}
+
+.th {
+  border: 1px solid rgba(178, 174, 174, 0.749)
+}
+
+.adminButton {
+  font-size: 13px;
+}
+
+.like {
+  fill: black
+}
+
+.editValue {
+  border: none;
+  width: 100%;
+  height: 30px;
+}
+
+
+.ReactTags__tags {
+  position: relative;
+}
+
+.ReactTags__clearAll {
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  color: #fff;
+  border: none;
+}
+
+.ReactTags__tagInput {
+  border-radius: 2px;
+  display: inline-block; 
+  min-height: 40px;
+}
+
+.ReactTags__tagInputField {
+  padding: .5rem;
+  min-height: 42px;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  border-radius: var(--bs-border-radius);
+  color: var(--bs-body-color);
+}
+
+.ReactTags__tags {
+  margin: 0;
+  padding: 0;
+}
+
+.tag-wrapper {
+  padding: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 0;
+  border-radius: 30%;
+}
+.ReactTags__tagInput input.ReactTags__tagInputField,
+.ReactTags__tagInput input.ReactTags__tagInputField:focus {
+  /* height: 31px;
+  margin: 0;
+  font-size: 12px; */
+  width: 100%;
+}
+
+.ReactTags__editInput {
+  border-radius: 1px;
+}
+
+.ReactTags__editTagInput {
+  display: inline-flex;
+}
+
+.ReactTags__tagInputField {
+  outline: none;
+}
+.ReactTags__tagInputField:focus-visible {
+  outline: none;
+}
+.ReactTags__tagInputField:focus {
+  box-shadow: 0 0 0 0.25rem rgba(13,110,253,.25);
+  border-color: #86b7fe;
+  outline: 0;
+}
+
+.ReactTags__tagInput {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.ReactTags__selected span.ReactTags__tag {
+  text-align: left;
+  width: fit-content;
+  background-color: #7f86e687;
+  color: #fff;
+  border-radius: 5%;
+  padding: 5px 10px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.ReactTags__selected {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ReactTags__selected a.ReactTags__remove {
+  color: #aaa;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.ReactTags__suggestions ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.ReactTags__suggestions li mark {
+  background-color: unset;
+  padding: 0;
+  margin: 0;
+  color: #9c9c9c;
+}
+.ReactTags__suggestions li {
+  text-align: left;
+  width: fit-content;
+  color: #9c9c9c;
+  border-radius: 20%;
+  padding: 3px 5px;
+  text-decoration: underline;
+}
+
+.ReactTags__remove {
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: white;
+}
+
+.ReactTags__tagInputField:focus {
+  outline: none;
+}

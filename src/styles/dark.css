@@ -1,0 +1,122 @@
+/* LINK */ 
+.create-dark {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.create-dark:hover {
+  color: #252326d4;
+}
+
+
+/* LI */
+.li-dark {
+  color: #ffffffcf;
+}
+
+
+/* LOGO */
+.logo-themes-dark {
+  transform: scaleX(-1);
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%); 
+}
+
+
+/* INPUT CHANGE MODE */
+.form-check-input:checked {
+  border: none;
+  background-color: #241a2ae7;
+}
+
+
+/* INPUT FIELD */
+.input-dark {
+  background-color: #e2dfe399;
+  border: 1px solid #646464d4;
+}
+.input-dark::placeholder {
+  color: #fff;
+}
+
+/* HEADER */
+.header-dark {
+  background-color: #252326d4;
+}
+
+
+/* BUTTON */
+.button-dark {
+  background-color: #252326d4;
+  color: #fff;
+} 
+
+.button-dark:hover {
+  background-color: #241a2ae7;
+  color: #ffffffda;
+}
+
+
+/* CONTAINER */
+.dark-theme {
+  background-color: #241a2ae7;
+  color: #fff;;
+}
+
+.inner-dark {
+  background-color: #c2bac62e;
+  color: #fff;
+}
+
+/* SELECT */
+.select-dark {
+  background-color: #241a2ae7;
+  color: #fff;
+  border: none;
+}
+
+/* LINK-dark */
+.linkButton-dark {
+  color: #fff;
+}
+
+.linkButton-dark:hover {
+  color: #868282;
+}
+
+.nameColl:hover {
+  font-weight: 500;
+  color: #868282;
+}
+
+.empty-coll-dark {
+  color: #fff;
+}
+
+.logo-done-dark {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.select-dark:checked {
+  background-color: #241a2ae7;
+}
+
+.adminHeadTable-dark {
+  background-color: #252326d4;
+}
+
+.lastItems-dark {
+  border: 1px solid #c2bac62e;
+}
+
+.lastItems-dark-text {
+  color: #fff;
+}
+
+.Select {
+  background-color: #252326d4;
+}
+
+.dark-theme-tags {
+  color: #ffc8c8;
+}

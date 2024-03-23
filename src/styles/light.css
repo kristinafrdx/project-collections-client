@@ -1,0 +1,67 @@
+/* BUTTON */
+.btn-light {
+  background-color: #464da7;
+  color: #fff;
+}
+.btn-light:hover {
+  background-color: #373c85;
+  color: #ffffffcf;
+}
+
+/* HEADER */
+.header-light {
+  background-color: #464da7;
+  color: #fff;
+}
+
+/* CONTAINER */
+.light-theme {
+  background-color: #fff;
+}
+
+/* LINK */
+.create-light {
+  text-decoration: none;
+  color: #464da7;
+  font-weight: 600;
+}
+.create-light:hover {
+  color: #373c85;
+}
+
+/* LI */
+.li-light {
+  color: #000000de;
+}
+
+.select-light {
+  color: #403e3e;
+  background-color: #fff;
+}
+
+/*  LINK button */
+.linkButton-light {
+  color: #464da7;
+}
+
+.linkButton-light:hover {
+  font-weight: 500;
+  color: #3b408e
+}
+
+.empty-coll-light {
+  color: rgb(26, 23, 56);
+}
+
+.lastItems-light {
+  box-shadow: var(--bs-box-shadow-lg);
+  border: 1px solid #dadada;
+}
+
+.lastItems-light-text {
+  color: #464da7;
+}
+
+.light-theme-tags {
+  color: #464da7;
+}
